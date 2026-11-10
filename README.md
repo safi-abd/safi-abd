@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/terminal.svg" width="100%" alt="whoami: Safi, 18. Studying BCA, Software Engineering at Amity. Running TechAmber. Into cricket, home workouts, the last 1%.">
+  <img src="assets/terminal.svg" width="100%" alt="whoami: Safi, 18. Studying BCA, Software Engineering at Amity. Running TechAmber. Into the last 1%.">
 </p>
 
 <img src="assets/divider.svg" width="100%" alt="">

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="whoami: Safi, 18. Studying BCA, Software Engineering at Amity. Running TechAmber. Into cricket, home workouts, the last 1%.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="whoami: Safi, 18. Studying BCA, Software Engineering at Amity. Running TechAmber. Into the last 1%.">
 <style>
   .mono { font: 400 19px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; white-space: pre; }
   .title { font: 500 13px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #6B7280; letter-spacing: 1px; }
@@ -18,7 +18,7 @@
 <text class="l2 mono" x="36" y="164" fill="#8B929C">  › age ........... <tspan fill="#E6E7EA">18</tspan></text>
 <text class="l3 mono" x="36" y="198" fill="#8B929C">  › studying ...... <tspan fill="#E6E7EA">BCA, Software Engineering · Amity</tspan></text>
 <text class="l4 mono" x="36" y="232" fill="#8B929C">  › doing ......... <tspan fill="#E6E7EA">running TechAmber, shipping software that sells</tspan></text>
-<text class="l5 mono" x="36" y="266" fill="#8B929C">  › into .......... <tspan fill="#E6E7EA">cricket, home workouts, the last 1%</tspan></text>
+<text class="l5 mono" x="36" y="266" fill="#8B929C">  › into .......... <tspan fill="#E6E7EA">the last 1%</tspan></text>
 <rect class="cur" x="36" y="283" width="10" height="21" rx="1"/>
 <rect width="1199" height="339" x=".5" y=".5" rx="14" fill="none" stroke="#FFFFFF" stroke-opacity="0.08"/>
 </svg>
