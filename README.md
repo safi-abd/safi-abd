@@ -1,17 +1,20 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Safi. Founder, TechAmber. I build software that sells.">
+  <a href="https://techamber.in"><img src="./cards/hero.svg" width="100%" alt="Safi Abdullah. Founder, TechAmber. I build software that sells."></a>
 </p>
 
 <p align="center">
-  <b>Obsessed with the last 1%.</b><br>
-  <b>If it doesn't sell, it doesn't ship.</b>
+  <img src="./cards/graph.svg" width="100%" alt="Contribution graph for the last year">
 </p>
 
 <p align="center">
-  <img src="assets/terminal.svg" width="100%" alt="whoami: Safi, 18. Studying BCA, Software Engineering at Amity. Running TechAmber. Into the last 1%.">
+  <img src="./cards/activity.svg" width="100%" alt="Contributions over the last 12 months">
 </p>
 
-<img src="assets/divider.svg" width="100%" alt="">
+<p align="center">
+  <img src="./cards/build.svg" width="32.5%" alt="98+ projects">
+  <img src="./cards/learn.svg" width="32.5%" alt="6+ failed ventures">
+  <img src="./cards/trust.svg" width="32.5%" alt="78+ clients">
+</p>
 
 <p align="center">
   <sub>building quietly · <a href="https://techamber.in">techamber.in</a></sub>
