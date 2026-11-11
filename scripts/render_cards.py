@@ -191,7 +191,7 @@ def bars(days: list[tuple[date, int]]) -> None:
             )
     streak_word = "current streak, and the longest" if current == longest else f"current streak · longest {longest}"
     stats = [
-        (f'{current}<tspan class="it"> days</tspan>', streak_word),
+        (f'{current}<tspan class="it"> {"day" if current == 1 else "days"}</tspan>', streak_word),
         (f'{active}<tspan class="faint"> / {len(days)}</tspan>', "days with a commit"),
         (f"{busiest}", "on the busiest day"),
     ]
