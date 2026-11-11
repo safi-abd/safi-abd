@@ -13,7 +13,6 @@
 .num{font:72px 'Serif', Georgia, serif;fill:#EDEDEF;letter-spacing:-1.5px}
 .it{font:28px 'SerifItalic', Georgia, serif;fill:#5B8CFF}
 .card{transform-box:fill-box;transform-origin:50% 100%;animation:swing .9s cubic-bezier(.2,.8,.25,1) 0.56s both}
-.ring{transform-box:fill-box;transform-origin:center;animation:ring 2.8s ease-out 1.2s infinite}
 .sh{animation:sweep 6s ease-in-out 2.4s infinite}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important}}</style><rect x=".5" y=".5" width="289" height="209" rx="18" fill="#0E1013" stroke="#FFFFFF" stroke-opacity=".08"/>
 <defs>
@@ -26,7 +25,6 @@
 </defs>
 <g class="card"><g clip-path="url(#c)">
   <rect x="1" y="1" width="288" height="208" rx="17" fill="url(#g)"/>
-  <circle class="ring" cx="256" cy="34" r="10" fill="none" stroke="#5B8CFF" stroke-width="1.5"/>
   <rect class="sh" x="-140" y="0" width="90" height="210" fill="url(#s)"/>
 </g>
 <rect x="28" y="30" width="7" height="7" rx="1.5" fill="#5B8CFF"/>

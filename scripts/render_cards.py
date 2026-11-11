@@ -301,7 +301,6 @@ def tile(name: str, label: str, num: int, word: str, color: str, delay: float) -
 .num{{font:72px {SERIF};fill:{INK};letter-spacing:-1.5px}}
 .it{{font:28px {ITALIC};fill:{color}}}
 .card{{transform-box:fill-box;transform-origin:50% 100%;animation:swing .9s cubic-bezier(.2,.8,.25,1) {delay:.2f}s both}}
-.ring{{transform-box:fill-box;transform-origin:center;animation:ring 2.8s ease-out {end:.1f}s infinite}}
 .sh{{animation:sweep 6s ease-in-out {end + 1.2:.1f}s infinite}}
 """
     body = f"""
@@ -315,7 +314,6 @@ def tile(name: str, label: str, num: int, word: str, color: str, delay: float) -
 </defs>
 <g class="card"><g clip-path="url(#c)">
   <rect x="1" y="1" width="{w-2}" height="{h-2}" rx="17" fill="url(#g)"/>
-  <circle class="ring" cx="{w - 34}" cy="34" r="10" fill="none" stroke="{color}" stroke-width="1.5"/>
   <rect class="sh" x="-140" y="0" width="90" height="{h}" fill="url(#s)"/>
 </g>
 <rect x="28" y="30" width="7" height="7" rx="1.5" fill="{color}"/>
@@ -334,9 +332,9 @@ def main() -> None:
         days = load_days()
         graph(days)
         bars(days)
-    tile("build.svg", "BUILD", 98, "projects", AMBER, 0.2)
-    tile("learn.svg", "LEARN", 6, "failed ventures", RED, 0.38)
-    tile("trust.svg", "TRUST", 78, "clients", BLUE, 0.56)
+    tile("tile-build.svg", "BUILD", 98, "projects", AMBER, 0.2)
+    tile("tile-learn.svg", "LEARN", 6, "failed ventures", RED, 0.38)
+    tile("tile-trust.svg", "TRUST", 78, "clients", BLUE, 0.56)
     print("cards written to", CARDS)
 
 

@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <img src="./cards/build.svg" width="32.5%" alt="98+ projects">
-  <img src="./cards/learn.svg" width="32.5%" alt="6+ failed ventures">
-  <img src="./cards/trust.svg" width="32.5%" alt="78+ clients">
+  <img src="./cards/tile-build.svg" width="32.5%" alt="98+ projects">
+  <img src="./cards/tile-learn.svg" width="32.5%" alt="6+ failed ventures">
+  <img src="./cards/tile-trust.svg" width="32.5%" alt="78+ clients">
 </p>
 
 <p align="center">
