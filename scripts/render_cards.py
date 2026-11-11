@@ -300,7 +300,6 @@ def tile(name: str, label: str, num: int, word: str, color: str, delay: float) -
 .lab{{font:12px {MONO};fill:{color};letter-spacing:1.8px}}
 .num{{font:72px {SERIF};fill:{INK};letter-spacing:-1.5px}}
 .it{{font:28px {ITALIC};fill:{color}}}
-.arr{{font:15px {MONO};fill:{MUTED};animation:nudge 3s ease-in-out {end + 1:.1f}s infinite}}
 .card{{transform-box:fill-box;transform-origin:50% 100%;animation:swing .9s cubic-bezier(.2,.8,.25,1) {delay:.2f}s both}}
 .ring{{transform-box:fill-box;transform-origin:center;animation:ring 2.8s ease-out {end:.1f}s infinite}}
 .sh{{animation:sweep 6s ease-in-out {end + 1.2:.1f}s infinite}}
@@ -321,7 +320,6 @@ def tile(name: str, label: str, num: int, word: str, color: str, delay: float) -
 </g>
 <rect x="28" y="30" width="7" height="7" rx="1.5" fill="{color}"/>
 <text class="lab" x="44" y="37">{label}</text>
-<text class="arr" x="{w - 40}" y="39">→</text>
 {count_txt}
 <text class="it" x="28" y="162" style="animation:fade .6s ease {end + 0.5:.2f}s both">{word}</text>
 </g>
